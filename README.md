@@ -3,7 +3,7 @@ Aqui terá alguns códigos e projetos feitos por mim com o meu tempo livre
  - Aqui terá alguns Projetos feitos por mim para estudo, programas mais simples estarão de forma livre, enquanto programas mais complexo estarão em pastas com seus arquivos dentro. 
  - Here you will have some Projects made by me for study, simpler programs will be free, while more complex programs will be in folders with their files inside.
  - ここでは私が研究のために作成したプロジェクトをいくつか紹介します。単純なプログラムは無料ですが、より複雑なプログラムはファイルのあるフォルダーにあります。
-
+<hr>
 <h1>VendedoresDinamicos</h1>
  - Finalizado 03/12/2023
  - Vantagens:
@@ -27,7 +27,7 @@ Aqui terá alguns códigos e projetos feitos por mim com o meu tempo livre
  - Desvantagens:
    - Vendedores limitados
    - Valores Limitados
-/----------------------------------------------------------------------------------------------------------------------/
+<hr>
 <h1>Dynamic Sellers</h1>
  - Completed 12/03/2023
  - Benefits:
@@ -52,7 +52,7 @@ Aqui terá alguns códigos e projetos feitos por mim com o meu tempo livre
  - Disadvantages:
    - Limited sellers
    - Limited Values
-/----------------------------------------------------------------------------------------------------------------------/
+<hr>
 <h1>売り手</h1>
  - 2023/12/03 完了
  - 利点:
