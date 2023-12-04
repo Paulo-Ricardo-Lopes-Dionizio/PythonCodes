@@ -34,7 +34,7 @@ while True:
                 else:
                     trocar = input('deseja trocar de vendedor?\n')
                     break
-            print(f'O valor total do(a) vendedor(a) {vendedor["nome"]} é R${valor_total:.2f}')
+            print(f'O valor total de compras por vendedor é R${valor_total:.2f}, junto com a ultima compra pelo(a) vendedor(a) {vendedor["nome"]} é ')
             break
     else:
         print(f'O(a) vendedor(a) "{nome_vendedor}" não foi encontrado(a). Tente novamente.')
