@@ -12,7 +12,7 @@ Aqui terá alguns códigos e projetos feitos por mim com o meu tempo livre
    - Identificar Vendedores
 
  - Desvantagens:
-
+   - Tem que comprar o conjunto de itens quando seleciona o vendedor 
    - Compras apenas 1 por vez
    - Quantidade de itens entre todos os vendedores são limitados
  
@@ -36,7 +36,7 @@ Aqui terá alguns códigos e projetos feitos por mim com o meu tempo livre
    - Identify Sellers
 
  - Disadvantages:
-
+   - You have to buy the set of items when you select the seller
    - Purchase only 1 at a time
    - Quantity of items among all sellers are limited
  
@@ -50,6 +50,7 @@ Aqui terá alguns códigos e projetos feitos por mim com o meu tempo livre
    - Use only "if/else","while"
 
  - Disadvantages:
+   - You have to buy the set of items when you select the seller
    - Limited sellers
    - Limited Values
 <hr>
@@ -61,7 +62,7 @@ Aqui terá alguns códigos e projetos feitos por mim com o meu tempo livre
    - 販売者の特定
 
  - 短所:
-
+   - 売り手を選択するときにアイテムのセットを購入する必要があります
    - 一度に1つだけ購入してください
    - すべての販売者の商品の数量には限りがあります
  
@@ -75,5 +76,6 @@ Aqui terá alguns códigos e projetos feitos por mim com o meu tempo livre
    - 「if/else」、「while」のみを使用してください
 
  - 短所:
+   - 売り手を選択するときにアイテムのセットを購入する必要があります
    - 限定販売者
    - 限られた価値観

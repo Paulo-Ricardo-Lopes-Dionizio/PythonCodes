@@ -3,7 +3,7 @@ M = int(input('Digite a quantidade de item por vendedor(a)\n'))
 comercio = []
 repetir = "não"
 repeticao = 0
-for i in range(0,N):
+for i in range(0, N):
     vendedores = {}
     vendedores['nome'] = input(f'Digite o nome do(a) vendedor(a) {i + 1}: ')
     vendedores['itens'] = []
@@ -22,7 +22,8 @@ while True:
         break
     for vendedor in comercio:
         if vendedor['nome'] == nome_vendedor:
-            print(f'Você escolheu o(a) vendedor(a) {vendedor["nome"]}. Os itens e valores são: {vendedor["itens"]} - {vendedor["valores"]}')
+            print(
+                f'Você escolheu o(a) vendedor(a) {vendedor["nome"]}. Os itens e valores são: {vendedor["itens"]} - {vendedor["valores"]}')
             while repetir == "não":
                 if repeticao == 0:
                     confimar = input('Deseja comprar esse item?\n')
@@ -34,7 +35,9 @@ while True:
                 else:
                     trocar = input('deseja trocar de vendedor?\n')
                     break
-            print(f'O valor total de compras por vendedor é R${valor_total:.2f}, junto com a ultima compra pelo(a) vendedor(a) {vendedor["nome"]} é ')
+            print(
+                f'O valor total de compras por vendedor é R${valor_total:.2f}, junto com a ultima compra pelo(a) '
+                f'vendedor(a) {vendedor["nome"]} ')
             break
     else:
         print(f'O(a) vendedor(a) "{nome_vendedor}" não foi encontrado(a). Tente novamente.')
