@@ -69,11 +69,13 @@ while repetir == 'não':
         ##############################################################################
 
         elif vendedor[i] == vendedores[2]:
+            print('###########################################################################')
             print(f'{vendedores[2]} vender:\nNecroSword = 99 reais')
             if pecas[2] == 0:
                 confimar = input('Deseja comprar essa peça?\n')
             else:
                 confimar = input('Deseja comprar novamente essa peça?\n')
+                print('###########################################################################')
             if confimar == 'sim':
 
                 pecas[2] = pecas[2] + 1
@@ -84,11 +86,13 @@ while repetir == 'não':
         ##############################################################################
 
         elif vendedor[i] == vendedores[3]:
+            print('###########################################################################')
             print(f'{vendedores[3]} vender:\nEscudo de Metal = 30 reais')
             if pecas[3] == 0:
                 confimar = input('Deseja comprar essa peça?\n')
             else:
                 confimar = input('Deseja comprar novamente essa peça?\n')
+                print('###########################################################################')
             if confimar == 'sim':
 
                 pecas[3] = pecas[3] + 1
@@ -99,11 +103,13 @@ while repetir == 'não':
         ##############################################################################
 
         elif vendedor[i] == vendedores[4]:
+            print('###########################################################################')
             print(f'{vendedores[4]} vender:\nArmadura do Revenã de Ferro = 900 reais')
             if pecas[4] == 0:
                 confimar = input('Deseja comprar essa peça?\n')
             else:
                 confimar = input('Deseja comprar novamente essa peça?\n')
+                print('###########################################################################')
             if confimar == 'sim':
 
                 pecas[4] = pecas[4] + 1
@@ -114,11 +120,13 @@ while repetir == 'não':
         ##############################################################################
 
         elif vendedor[i] == vendedores[5]:
+            print('###########################################################################')
             print(f'{vendedores[5]} vender:\nOlho de agamotto = 125 reais')
             if pecas[5] == 0:
                 confimar = input('Deseja comprar essa peça?\n')
             else:
                 confimar = input('Deseja comprar novamente essa peça?\n')
+                print('###########################################################################')
             if confimar == 'sim':
 
                 pecas[5] = pecas[5] + 1
@@ -129,11 +137,13 @@ while repetir == 'não':
         ##############################################################################
 
         elif vendedor[i] == vendedores[6]:
+            print('###########################################################################')
             print(f'{vendedores[6]} vender:\nArmadura de Pegasus = 250 reais')
             if pecas[6] == 0:
                 confimar = input('Deseja comprar essa peça?\n')
             else:
                 confimar = input('Deseja comprar novamente essa peça?\n')
+                print('###########################################################################')
             if confimar == 'sim':
 
                 pecas[6] = pecas[6] + 1
@@ -144,11 +154,13 @@ while repetir == 'não':
         ##############################################################################
 
         elif vendedor[i] == vendedores[7]:
+            print('###########################################################################')
             print(f'{vendedores[7]} vender:\nSoro do Super-Soldado = 550 reais')
             if pecas[7] == 0:
                 confimar = input('Deseja comprar essa peça?\n')
             else:
                 confimar = input('Deseja comprar novamente essa peça?\n')
+                print('###########################################################################')
             if confimar == 'sim':
 
                 pecas[7] = pecas[7] + 1
@@ -159,11 +171,13 @@ while repetir == 'não':
         ##############################################################################
 
         elif vendedor[i] == vendedores[8]:
+            print('###########################################################################')
             print(f'{vendedores[8]} vender:\nPoção de Cura = 10 reais')
             if pecas[8] == 0:
                 confimar = input('Deseja comprar essa peça?\n')
             else:
                 confimar = input('Deseja comprar novamente essa peça?\n')
+                print('###########################################################################')
             if confimar == 'sim':
 
                 pecas[8] = pecas[8] + 1
@@ -174,11 +188,13 @@ while repetir == 'não':
         ##############################################################################
 
         elif vendedor[i] == vendedores[9]:
+            print('###########################################################################')
             print(f'{vendedores[9]} vender:\nPc Gamer = 10 reais')
             if pecas[9] == 0:
                 confimar = input('Deseja comprar essa peça?\n')
             else:
                 confimar = input('Deseja comprar novamente essa peça?\n')
+                print('###########################################################################')
 
             if confimar == 'sim':
 
