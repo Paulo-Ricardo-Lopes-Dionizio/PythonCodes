@@ -1,26 +1,33 @@
 import speech_recognition as sr
+
 r = sr.Recognizer()
-def gravar_texto():
-    while(1):
+
+
+def record_text():
+    while (1):
         try:
             with sr.Microphone() as source2:
-                r.adjust_for_ambient_noise(source2,duration=0.2)
+                r.adjust_for_ambient_noise(source2, duration=0.2)
                 audio2 = r.listen(source2)
-                meuTexto = r.recognize_google(audio2)
-                return meuTexto
+                meu_Texto = r.recognize_google(audio2)
+                return meu_Texto
 
         except sr.RequestError as e:
-          print("Deu algum problema;{0}".format(e))
+            print(f"Deu algum problema;{0}".format(e))
         except sr.UnknownValueError:
-          print("Erro desconhecido")
+            print("Error desconhecido")
     return
-def sair_texto(text):
-    f = open("output.txt","a")
+
+
+def output_text(text):
+    f = open("output.txt", "a")
     f.write(text)
     f.write("\n")
     f.close()
     return
+
+
 while (1):
-    text = gravar_texto()
-    sair_texto(text)
+    text = record_text()
+    output_text(text)
     print("Texto, animal de tetano")
