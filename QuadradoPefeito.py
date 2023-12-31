@@ -6,7 +6,7 @@ match linguagem:
         print(Perfect_Square)
 
     case "Português":
-        valor = int(input('Digite o valor para saber o quadrado perfeito dele!\n'))
+        valor = int(input('Digite o valor para saber o quadrado perfeito!\n'))
         quadrado_Perfeito = [valor ** 2 for i in range(1)]
         print(quadrado_Perfeito)
 
