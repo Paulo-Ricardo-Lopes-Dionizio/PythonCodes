@@ -1,7 +1,8 @@
 import speech_recognition as sr
 
 r = sr.Recognizer()
-cout = 0
+contador = 0
+
 
 def record_text():
     while 1:
@@ -16,20 +17,20 @@ def record_text():
             print(f"Deu algum problema no :{0}".format(e))
         except sr.UnknownValueError:
             print("Error desconhecido")
-    return
+        return
 
 
-def output_text(text):
+def output_text(texto):
     f = open("output.txt", "a")
-    f.write(text)
+    f.write(texto)
     f.write("\n")
     f.close()
-    cout =+ 1
+    contador =+ 1
     return
 
 
 while 1:
     text = record_text()
     output_text(text)
-    print(f'foi usado {cout} o chat de voz')
+    print(f'foi usado {contador} o chat de voz')
     print("Texto, animal de tetano")
