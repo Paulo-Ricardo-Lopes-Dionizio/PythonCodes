@@ -70,6 +70,6 @@ del selecao['6']
 print(selecao)
 
 print(selecao.keys())
-print(selecao.items())
+print(selecao.items())#keys + values
 print(selecao.values())
 
