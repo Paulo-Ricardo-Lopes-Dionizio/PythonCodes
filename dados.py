@@ -73,3 +73,9 @@ print(selecao.keys())
 print(selecao.items())#keys + values
 print(selecao.values())
 
+def dobro(n):
+    return n * 2
+numeros = (6,5,4,3,2,1)
+numerosDobrados = map(dobro,numeros)
+print(numerosDobrados)
+print(tuple(numerosDobrados))
