@@ -32,5 +32,6 @@ def output_text(texto):
 while 1:
     text = record_text()
     output_text(text)
+    
     print(f'foi usado {contador} o chat de voz')
     print("Texto, animal de tetano")
