@@ -42,12 +42,9 @@ var1 = IntVar()
 var2 = IntVar()
 var3 = IntVar()
 
-menubutton.menu.add_checkbutton(label="Português",
-                                variable=var1)
-menubutton.menu.add_checkbutton(label="English",
-                                variable=var2)
-menubutton.menu.add_checkbutton(label="日本語",
-                                variable=var3)
+menubutton.menu.add_radiobutton(label="Português", variable=var1,command=None)
+menubutton.menu.add_radiobutton(label="English", variable=var2,command=None)
+menubutton.menu.add_radiobutton(label="日本語", variable=var3,command=None)
 
 menubutton.pack()
 
