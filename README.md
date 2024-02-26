@@ -28,6 +28,37 @@ Aqui terá alguns códigos e projetos feitos por mim com o meu tempo livre
  - Desvantagens:
    - Vendedores limitados
    - Valores Limitados
+<h1>Texto-Falas</h1>
+ - Em processo
+ -Tradução em andamento
+
+ - Vantagens:
+
+   - Escuta os sons das vozes de que usar
+   - Todas as falas são reescritas no bloco de notas
+
+ - Desvantagens:
+
+   - Apenas falas em inglês possui eficiência na escrita para o bloco de notas
+   - Possui um atraso de escrita entre 10 a 30 segundos
+   - Necessita de um microfone de boa qualidade
+   - 
+<h1>Janelas</h1>
+ - Em processo
+ -Tradução em andamento
+
+ - Vantagens:
+
+   - Criação de Janelas de programa
+   - utilização de categorias e funções de "Web"
+   - algumas funções podem deixar o site mais reponsivo.
+
+ - Desvantagens:
+
+   - Limitação de espaço caso seja pre redimencionado
+   - Conhecimento de "Web" para entender alguns conceitos
+
+   
 <hr>
 <h1>Dynamic Sellers</h1>
  - Completed 12/03/2023
