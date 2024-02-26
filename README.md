@@ -57,7 +57,20 @@ Aqui terá alguns códigos e projetos feitos por mim com o meu tempo livre
 
    - Limitação de espaço caso seja pre redimencionado
    - Conhecimento de "Web" para entender alguns conceitos
+<h1>Programa Base</h1>
+ - Em processo
+ -Tradução em andamento
 
+ - Vantagens:
+
+   - Criação base para programas
+   - Facil manusear
+  
+
+ - Desvantagens:
+
+   - Limitação de espaço caso seja pre-redimencionado
+   - Comandos longos
    
 <hr>
 <h1>Dynamic Sellers</h1>
