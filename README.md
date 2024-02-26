@@ -18,6 +18,7 @@ Aqui terá alguns códigos e projetos feitos por mim com o meu tempo livre
  
 <h1>VendedoresEstaticos</h1>
  - Finalizado 02/12/2023
+ - Traduzido em 3 linguagens(Português,Inglês,Japonês)
  - Vantagens:
 
    - Escolher qual item cada vendedor terá
@@ -43,6 +44,7 @@ Aqui terá alguns códigos e projetos feitos por mim com o meu tempo livre
 <h1>Static Salespeople</h1>
 
  - Completed 12/02/2023
+ - Translated into 3 languages (Portuguese,English,Japanese)
  - Benefits:
 
    - Choose which item each seller will have
@@ -69,6 +71,7 @@ Aqui terá alguns códigos e projetos feitos por mim com o meu tempo livre
 <h1>売り手</h1>
 
  - 2023/12/02 完了
+ - さまざまな言語に翻訳(ポルトガル語、英語、日本語)
  - 利点:
 
    - 各販売者がどのアイテムを所有するかを選択してください
