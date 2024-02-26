@@ -18,6 +18,7 @@ Aqui terá alguns códigos e projetos feitos por mim com o meu tempo livre
  
 <h1>VendedoresEstaticos</h1>
  - Finalizado 02/12/2023
+ - Traduzido em 3 linguagens(Português,Inglês,Japonês)
  - Vantagens:
 
    - Escolher qual item cada vendedor terá
@@ -27,6 +28,50 @@ Aqui terá alguns códigos e projetos feitos por mim com o meu tempo livre
  - Desvantagens:
    - Vendedores limitados
    - Valores Limitados
+<h1>Texto-Falas</h1>
+ - Em processo
+ -Tradução em andamento
+
+ - Vantagens:
+
+   - Escuta os sons das vozes de que usar
+   - Todas as falas são reescritas no bloco de notas
+
+ - Desvantagens:
+
+   - Apenas falas em inglês possui eficiência na escrita para o bloco de notas
+   - Possui um atraso de escrita entre 10 a 30 segundos
+   - Necessita de um microfone de boa qualidade
+   - 
+<h1>Janelas</h1>
+ - Em processo
+ -Tradução em andamento
+
+ - Vantagens:
+
+   - Criação de Janelas de programa
+   - utilização de categorias e funções de "Web"
+   - algumas funções podem deixar o site mais reponsivo.
+
+ - Desvantagens:
+
+   - Limitação de espaço caso seja pre redimencionado
+   - Conhecimento de "Web" para entender alguns conceitos
+<h1>Programa Base</h1>
+ - Em processo
+ -Tradução em andamento
+
+ - Vantagens:
+
+   - Criação base para programas
+   - Facil manusear
+  
+
+ - Desvantagens:
+
+   - Limitação de espaço caso seja pre-redimencionado
+   - Comandos longos
+   
 <hr>
 <h1>Dynamic Sellers</h1>
  - Completed 12/03/2023
@@ -43,6 +88,7 @@ Aqui terá alguns códigos e projetos feitos por mim com o meu tempo livre
 <h1>Static Salespeople</h1>
 
  - Completed 12/02/2023
+ - Translated into 3 languages (Portuguese,English,Japanese)
  - Benefits:
 
    - Choose which item each seller will have
@@ -69,6 +115,7 @@ Aqui terá alguns códigos e projetos feitos por mim com o meu tempo livre
 <h1>売り手</h1>
 
  - 2023/12/02 完了
+ - さまざまな言語に翻訳(ポルトガル語、英語、日本語)
  - 利点:
 
    - 各販売者がどのアイテムを所有するかを選択してください
