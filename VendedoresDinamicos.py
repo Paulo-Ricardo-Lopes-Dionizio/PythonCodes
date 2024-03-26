@@ -73,7 +73,7 @@ match linguagem:
        vendedores['value'] = []
      for j in range(0, M):
         item = input(f'Enter the name of the item {j + 1} sold by the seller {vendedores["name"]}?:\n ')
-        valor = float(input(f'Digite o valor do item {j + 1} Sold by the seller {vendedores["name"]}:\n '))
+        valor = float(input(f'Enter the value of the item {j + 1} Sold by the seller {vendedores["name"]}:\n '))
         vendedores['itens'].append(item)
         vendedores['value'].append(valor)
      comercio.append(vendedores)
@@ -105,3 +105,54 @@ match linguagem:
             break
       else:
          print(f'The salesperson  "{nome_vendedor}" Not found. Please try again.')
+
+    case "日本語":
+     print('###########################################################################')
+     print('#ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ#')
+     print('#ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ     出品者登録プログラム             ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ#')
+     print('#ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ#')
+     print('###########################################################################')
+     N = int(input('販売者の数を入力します\n'))
+     M = int(input('販売員ごとの品目の数量を入力します\n'))
+     comercio = []
+     repetir = "いいえ"
+     repeticao = 0
+     for i in range(0, N):
+       vendedores = {}
+       vendedores['名前'] = input(f'販売者の名前を入力します{i + 1}: ')
+       vendedores['項目'] = []
+       vendedores['価値'] = []
+     for j in range(0, M):
+        item = input(f'アイテムの名前を入力します {j + 1}.売り手が販売{vendedores["名前"]}?:\n ')
+        valor = float(input(f'アイテムの値を入力します {j + 1}. 売り手が販売 {vendedores["名前"]}:\n '))
+        vendedores['項目'].append(item)
+        vendedores['価値'].append(valor)
+     comercio.append(vendedores)
+     valor_total = 0
+     while True:
+      print(comercio)
+      nome_vendedor = input('どの販売者から購入するか、「完了」と入力して終了します:\n ')
+      if nome_vendedor.lower() == '完了':
+         break
+      for vendedor in comercio:
+         if vendedor['名前'] == nome_vendedor:
+            print(
+
+                f'営業担当者を選んだ {vendedor["名前"]}. 項目と値は次のとおりです。 {vendedor["項目"]} - {vendedor["価値"]}')
+            while repetir == "いいえ":
+                if repeticao == 0:
+                    confimar = input('この商品を購入しますか?\n')
+                else:
+                    confimar = input('このアイテムを再購入しますか?\n')
+                if confimar == 'はい':
+                    repeticao = repeticao + 1
+                    valor_total += sum(vendedor['価値'])
+                else:
+                    trocar = input('販売者を切り替えますか?\n')
+                    break
+            print(
+                f'販売員あたりの購入の合計金額は  {valor_total:.2f} です.最後の購入と一緒に'
+                f'店員 {vendedor["名前"]} ')
+            break
+      else:
+         print(f'営業担当者。"{nome_vendedor}" 見つかりませんでした。. もう一度やり直してください.')
