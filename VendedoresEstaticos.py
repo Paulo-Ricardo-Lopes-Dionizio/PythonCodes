@@ -27,7 +27,7 @@ match linguagem:
      for i in range(0, 10):
          # Aqui você vai colocar os nomes das pessoas
          vendedores[i] = input(f'Qual sera o nome do vendedor(a) número {i + 1} ?\n')
-     # ele irá mexer com o controle de repetição de compras
+     # essa parte controla a repetição
      while repetir == 'não':
 
          print('###########################################################################')
