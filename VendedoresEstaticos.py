@@ -4,7 +4,7 @@ print('#ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ🇧🇷Português🇧🇷 - 🇺🇸En
 print('#ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ#')
 print('###########################################################################')
 linguagem = str(input('digite qual linguagem vai usar\nEnter which language you are going to use\n使用する言語を入力します\n\n'))
-
+carteira = int(input('digite quanto de dinheiro precisa usar \nenter how much money you need to use \n必要な金額を入力してください\n\n'))
 
 i = 0
 pecas = [0] * 10
@@ -26,7 +26,6 @@ match linguagem:
      print("Temos no total de 10 vendedores")
      for i in range(0, 10):
          # Aqui você vai colocar os nomes das pessoas
-
          vendedores[i] = input(f'Qual sera o nome do vendedor(a) número {i + 1} ?\n')
      # ele irá mexer com o controle de repetição de compras
      while repetir == 'não':
@@ -44,9 +43,9 @@ match linguagem:
                  print(f'{vendedores[0]} vender:\nKatanas = 7 reais')
                  # execução de compra
                  if pecas[0] == 0:
-                     confimar = input('Deseja comprar essa peça?\n')
+                     confimar = input('Deseja comprar essa peça?(sim/não)\n')
                  else:
-                     confimar = input('Deseja comprar novamente essa peça?\n')
+                     confimar = input('Deseja comprar novamente essa peça?(sim/não)\n')
                      print('###########################################################################')
                      #compra finalizada
                  if confimar == 'sim':
@@ -56,7 +55,7 @@ match linguagem:
                      precoV[0] = precoV[0] + 7
                  else:
                      # retorna para a pergunta
-                     trocar = input('deseja trocar de vendedor?\n')
+                     trocar = input('deseja trocar de vendedor?(sim/não)\n')
 
              ###########################################################################
 
@@ -64,16 +63,16 @@ match linguagem:
                  print('###########################################################################')
                  print(f'{vendedores[1]} vender:\nEspada de Grayskull = 15 reais')
                  if pecas[1] == 0:
-                     confimar = input('Deseja comprar essa peça?\n')
+                     confimar = input('Deseja comprar essa peça?(sim/não)\n')
                  else:
-                     confimar = input('Deseja comprar novamente essa peça?\n')
+                     confimar = input('Deseja comprar novamente essa peça?(sim/não)\n')
                      print('###########################################################################')
                  if confimar == 'sim':
 
                      pecas[1] = pecas[1] + 1
                      precoV[1] = precoV[1] + 15
                  else:
-                     trocar = input('deseja trocar de vendedor?\n')
+                     trocar = input('deseja trocar de vendedor?(sim/não)\n')
 
              ##############################################################################
 
@@ -81,16 +80,16 @@ match linguagem:
                  print('###########################################################################')
                  print(f'{vendedores[2]} vender:\nNecroSword = 99 reais')
                  if pecas[2] == 0:
-                     confimar = input('Deseja comprar essa peça?\n')
+                     confimar = input('Deseja comprar essa peça?(sim/não)\n')
                  else:
-                     confimar = input('Deseja comprar novamente essa peça?\n')
+                     confimar = input('Deseja comprar novamente essa peça?(sim/não)\n')
                      print('###########################################################################')
                  if confimar == 'sim':
 
                      pecas[2] = pecas[2] + 1
                      precoV[2] = precoV[2] + 99
                  else:
-                     trocar = input('deseja trocar de vendedor?\n')
+                     trocar = input('deseja trocar de vendedor?(sim/não)\n')
 
              ##############################################################################
 
@@ -98,16 +97,16 @@ match linguagem:
                  print('###########################################################################')
                  print(f'{vendedores[3]} vender:\nEscudo de Metal = 30 reais')
                  if pecas[3] == 0:
-                     confimar = input('Deseja comprar essa peça?\n')
+                     confimar = input('Deseja comprar essa peça?(sim/não)\n')
                  else:
-                     confimar = input('Deseja comprar novamente essa peça?\n')
+                     confimar = input('Deseja comprar novamente essa peça?(sim/não)\n')
                      print('###########################################################################')
                  if confimar == 'sim':
 
                      pecas[3] = pecas[3] + 1
                      precoV[3] = precoV[3] + 30
                  else:
-                     trocar = input('deseja trocar de vendedor?\n')
+                     trocar = input('deseja trocar de vendedor?(sim/não)\n')
 
              ##############################################################################
 
@@ -115,16 +114,16 @@ match linguagem:
                  print('###########################################################################')
                  print(f'{vendedores[4]} vender:\nArmadura do Revenã de Ferro = 900 reais')
                  if pecas[4] == 0:
-                     confimar = input('Deseja comprar essa peça?\n')
+                     confimar = input('Deseja comprar essa peça?(sim/não)\n')
                  else:
-                     confimar = input('Deseja comprar novamente essa peça?\n')
+                     confimar = input('Deseja comprar novamente essa peça?(sim/não)\n')
                      print('###########################################################################')
                  if confimar == 'sim':
 
                      pecas[4] = pecas[4] + 1
                      precoV[4] = precoV[4] + 900
                  else:
-                     trocar = input('deseja trocar de vendedor?\n')
+                     trocar = input('deseja trocar de vendedor?(sim/não)\n')
 
              ##############################################################################
 
@@ -132,16 +131,16 @@ match linguagem:
                  print('###########################################################################')
                  print(f'{vendedores[5]} vender:\nOlho de agamotto = 125 reais')
                  if pecas[5] == 0:
-                     confimar = input('Deseja comprar essa peça?\n')
+                     confimar = input('Deseja comprar essa peça?(sim/não)\n')
                  else:
-                     confimar = input('Deseja comprar novamente essa peça?\n')
+                     confimar = input('Deseja comprar novamente essa peça?(sim/não)\n')
                      print('###########################################################################')
                  if confimar == 'sim':
 
                      pecas[5] = pecas[5] + 1
                      precoV[5] = precoV[5] + 125
                  else:
-                     trocar = input('deseja trocar de vendedor?\n')
+                     trocar = input('deseja trocar de vendedor?(sim/não)\n')
 
              ##############################################################################
 
@@ -149,16 +148,16 @@ match linguagem:
                  print('###########################################################################')
                  print(f'{vendedores[6]} vender:\nArmadura de Pegasus = 250 reais')
                  if pecas[6] == 0:
-                     confimar = input('Deseja comprar essa peça?\n')
+                     confimar = input('Deseja comprar essa peça?(sim/não)\n')
                  else:
-                     confimar = input('Deseja comprar novamente essa peça?\n')
+                     confimar = input('Deseja comprar novamente essa peça?(sim/não)\n')
                      print('###########################################################################')
                  if confimar == 'sim':
 
                      pecas[6] = pecas[6] + 1
                      precoV[6] = precoV[6] + 250
                  else:
-                     trocar = input('deseja trocar de vendedor?\n')
+                     trocar = input('deseja trocar de vendedor?(sim/não)\n')
 
              ##############################################################################
 
@@ -166,16 +165,16 @@ match linguagem:
                  print('###########################################################################')
                  print(f'{vendedores[7]} vender:\nSoro do Super-Soldado = 550 reais')
                  if pecas[7] == 0:
-                     confimar = input('Deseja comprar essa peça?\n')
+                     confimar = input('Deseja comprar essa peça?(sim/não)\n')
                  else:
-                     confimar = input('Deseja comprar novamente essa peça?\n')
+                     confimar = input('Deseja comprar novamente essa peça?(sim/não)\n')
                      print('###########################################################################')
                  if confimar == 'sim':
 
                      pecas[7] = pecas[7] + 1
                      precoV[7] = precoV[7] + 550
                  else:
-                     trocar = input('deseja trocar de vendedor?\n')
+                     trocar = input('deseja trocar de vendedor?(sim/não)\n')
 
              ##############################################################################
 
@@ -183,9 +182,9 @@ match linguagem:
                  print('###########################################################################')
                  print(f'{vendedores[8]} vender:\nPoção de Cura = 10 reais')
                  if pecas[8] == 0:
-                     confimar = input('Deseja comprar essa peça?\n')
+                     confimar = input('Deseja comprar essa peça?(sim/não)\n')
                  else:
-                     confimar = input('Deseja comprar novamente essa peça?\n')
+                     confimar = input('Deseja comprar novamente essa peça?(sim/não)\n')
                      print('###########################################################################')
                  if confimar == 'sim':
 
@@ -200,9 +199,9 @@ match linguagem:
                  print('###########################################################################')
                  print(f'{vendedores[9]} vender:\nPc Gamer = 10 reais')
                  if pecas[9] == 0:
-                     confimar = input('Deseja comprar essa peça?\n')
+                     confimar = input('Deseja comprar essa peça?(sim/não)\n')
                  else:
-                     confimar = input('Deseja comprar novamente essa peça?\n')
+                     confimar = input('Deseja comprar novamente essa peça?(sim/não)\n')
                      print('###########################################################################')
 
                  if confimar == 'sim':
@@ -210,7 +209,7 @@ match linguagem:
                      pecas[9] = pecas[9] + 1
                      precoV[9] = precoV[9] + 10
                  else:
-                     trocar = input('deseja trocar de vendedor?\n')
+                     trocar = input('deseja trocar de vendedor?(sim/não)\n')
 
              ##############################################################################
              # aqui finaliza o processo
@@ -226,10 +225,15 @@ match linguagem:
                  vendedor[i] = input(f'Digite qual Vendedor deseja comprar?\n{vendedores} ou Nenhum\n')
      # valor total dos vendedores
      Total = sum(precoV)
+     # valor com a carteira
+     Total_carteira = carteira - Total
      print('###########################################################################')
      # Resultado final
-     print('Vendedores\n', vendedores, '\nValores\n', precoV, '\nPeças Vendidas\n', pecas, '\nTotal a pagar!\n', Total)
-     print('###########################################################################')
+     if Total > carteira:
+         print('Vendedores\n', vendedores, '\nValores\n', precoV, '\nPeças Vendidas\n', pecas, '\nTotal a pagar!\n',Total, '\n  e devendo\nR$', Total_carteira, ' na carteira')
+     else:
+        print('Vendedores\n', vendedores, '\nValores\n', precoV, '\nPeças Vendidas\n', pecas, '\nTotal a pagar!\n', Total, '\n Sobrando apenas\nR$',Total_carteira,' na carteira')
+        print('###########################################################################')
 
     case "english":
      repetir = 'no'
@@ -260,9 +264,9 @@ match linguagem:
                  print(f'Mr(s).{vendedores[0]} sell:\nKatanas = 1 bucks')
                  # Purchase Execution
                  if pecas[0] == 0:
-                    confimar = input('Do you want to buy this piece?\n')
+                    confimar = input('Do you want to buy this piece?(yes/no)\n')
                  else:
-                    confimar = input('Do you want to buy this piece? again?\n')
+                    confimar = input('Do you want to buy this piece? again?(yes/no)\n')
                     print('###########################################################################')
              #Checkout Completed
                  if confimar == 'yes':
@@ -271,139 +275,139 @@ match linguagem:
                     precoV[0] = precoV[0] + 1
                  else:
              # Returns to the question
-                    trocar = input('Do you want to switch sellers?\n')
+                    trocar = input('Do you want to switch sellers?(yes/no)\n')
              ###########################################################################
              elif vendedor[i] == vendedores[1]:
                  print('###########################################################################')
                  print(f'Mr(s).{vendedores[1]} sell:\nSword of Grayskull = 2 bucks')
                  if pecas[1] == 0:
-                      confimar = input('Do you want to buy this piece?\n')
+                      confimar = input('Do you want to buy this piece?(yes/no)\n')
                  else:
-                      confimar = input('Do you want to buy this piece again?\n')
+                      confimar = input('Do you want to buy this piece again?(yes/no)\n')
                       print('###########################################################################')
                  if confimar == 'yes':
                       pecas[1] = pecas[1] + 1
                       precoV[1] = precoV[1] + 2
                  else:
-                      trocar = input('Do you want to switch sellers?\n')
+                      trocar = input('Do you want to switch sellers?(yes/no)\n')
              ##############################################################################
              elif vendedor[i] == vendedores[2]:
                  print('###########################################################################')
                  print(f'Mr(s).{vendedores[2]} sell:\nNecroSword = 17 bucks')
                  if pecas[2] == 0:
-                      confimar = input('Do you want to buy this piece?\n')
+                      confimar = input('Do you want to buy this piece?(yes/no)\n')
                  else:
-                      confimar = input('Do you want to buy this piece again?\n')
+                      confimar = input('Do you want to buy this piece again?(yes/no)\n')
                       print('###########################################################################')
                  if confimar == 'yes':
                       pecas[2] = pecas[2] + 1
                       precoV[2] = precoV[2] + 17
                  else:
-                      trocar = input('Do you want to switch sellers?\n')
+                      trocar = input('Do you want to switch sellers?(yes/no)\n')
                       ##############################################################################
              elif vendedor[i] == vendedores[3]:
                  print('###########################################################################')
                  print(f'Mr(s).{vendedores[3]} sell:\nshield of metal = 5 bucks')
                  if pecas[3] == 0:
-                      confimar = input('Do you want to buy this piece?\n')
+                      confimar = input('Do you want to buy this piece?(yes/no)\n')
                  else:
-                      confimar = input('Do you want to buy this piece again?\n')
+                      confimar = input('Do you want to buy this piece again?(yes/no)\n')
                       print('###########################################################################')
                  if confimar == 'yes':
                       # Organizes the items placed in the cart
                       pecas[3] = pecas[3] + 1
                       precoV[3] = precoV[3] + 5
                  else:
-                      trocar = input('Do you want to switch sellers?\n')
+                      trocar = input('Do you want to switch sellers?(yes/no)\n')
                       ##############################################################################
              elif vendedor[i] == vendedores[4]:
                   print('###########################################################################')
                   print(f'Mr(s).{vendedores[4]} sell  :\nIron Revenan Armor = 162 bucks')
                   if pecas[4] == 0:
-                     confimar = input('Do you want to buy this piece?\n')
+                     confimar = input('Do you want to buy this piece?(yes/no)\n')
                   else:
-                     confimar = input('Do you want to buy this piece again?\n')
+                     confimar = input('Do you want to buy this piece again?(yes/no)\n')
                      print('###########################################################################')
                   if confimar == 'yes':
                      # Organizes the items placed in the cart
                      pecas[4] = pecas[4] + 1
                      precoV[4] = precoV[4] + 162
                   else:
-                     trocar = input('Do you want to switch sellers?\n')
+                     trocar = input('Do you want to switch sellers?(yes/no)\n')
              ##############################################################################
              elif vendedor[i] == vendedores[5]:
                   print('###########################################################################')
                   print(f'Mr(s).{vendedores[5]} sell:\nEye of agamotto = 22 bucks')
                   if pecas[5] == 0:
-                      confimar = input('Do you want to buy this piece?\n')
+                      confimar = input('Do you want to buy this piece?(yes/no)\n')
                   else:
-                      confimar = input('Do you want to buy this piece again?\n')
+                      confimar = input('Do you want to buy this piece again?(yes/no)\n')
                       print('###########################################################################')
                   if confimar == 'yes':
                       # Organizes the items placed in the cart
                       pecas[5] = pecas[5] + 1
                       precoV[5] = precoV[5] + 22
                   else:
-                      trocar = input('Do you want to switch sellers?\n')
+                      trocar = input('Do you want to switch sellers?(yes/no)\n')
              ##############################################################################
              elif vendedor[i] == vendedores[6]:
                   print('###########################################################################')
                   print(f'Mr(s).{vendedores[6]} sell:\nArmor of Pegasus = 45 bucks')
                   if pecas[6] == 0:
-                    confimar = input('Do you want to buy this piece?\n')
+                    confimar = input('Do you want to buy this piece?(yes/no)\n')
                   else:
-                    confimar = input('Do you want to buy this piece again?\n')
+                    confimar = input('Do you want to buy this piece again?(yes/no)\n')
                     print('###########################################################################')
                   if confimar == 'sim':
                     pecas[6] = pecas[6] + 1
                     precoV[6] = precoV[6] + 45
                   else:
-                    trocar = input('Do you want to switch sellers?\n')
+                    trocar = input('Do you want to switch sellers?(yes/no)\n')
                     ##############################################################################
              elif vendedor[i] == vendedores[7]:
                   print('###########################################################################')
                   print(f'Mr(s).{vendedores[7]} sell:\nSuper-Soldier Serum = 99 bucks')
                   if pecas[7] == 0:
-                    confimar = input('Do you want to buy this piece?\n')
+                    confimar = input('Do you want to buy this piece?(yes/no)\n')
                   else:
-                    confimar = input('Do you want to buy this piece again?\n')
+                    confimar = input('Do you want to buy this piece again?(yes/no)\n')
                     print('###########################################################################')
                   if confimar == 'yes':
                     # Organizes the items placed in the cart
                     pecas[7] = pecas[7] + 1
                     precoV[7] = precoV[7] + 99
                   else:
-                    trocar = input('Do you want to switch sellers?\n')
+                    trocar = input('Do you want to switch sellers?(yes/no)\n')
              ##############################################################################
              elif vendedor[i] == vendedores[8]:
                   print('###########################################################################')
                   print(f'Mr(s).{vendedores[8]} sell:\nHealing Potion = 2 bucks')
                   if pecas[8] == 0:
-                    confimar = input('Do you want to buy this piece?\n')
+                    confimar = input('Do you want to buy this piece?(yes/no)\n')
                   else:
-                    confimar = input('Do you want to buy this piece again?\n')
+                    confimar = input('Do you want to buy this piece again?(yes/no)\n')
                     print('###########################################################################')
                   if confimar == 'yes':
                     # Organizes the items placed in the cart
                     pecas[8] = pecas[8] + 1
                     precoV[8] = precoV[8] + 2
                   else:
-                    trocar = input('Do you want to switch sellers?\n')
+                    trocar = input('Do you want to switch sellers?(yes/no)\n')
                  ##############################################################################
              elif vendedor[i] == vendedores[9]:
                   print('###########################################################################')
                   print(f'Mr(s).{vendedores[9]} sell:\nPc Gamer = 1 bucks')
                   if pecas[9] == 0:
-                   confimar = input('Do you want to buy this piece?\n')
+                   confimar = input('Do you want to buy this piece?(yes/no)\n')
                   else:
-                   confimar = input('Do you want to buy this piece again?\n')
+                   confimar = input('Do you want to buy this piece again?(yes/no)\n')
                    print('###########################################################################')
                   if confimar == 'yes':
                     # Organizes the items placed in the cart
                    pecas[9] = pecas[9] + 1
                    precoV[9] = precoV[9] + 1
                   else:
-                   trocar = input('Do you want to switch sellers?\n')
+                   trocar = input('Do you want to switch sellers?(yes/no)\n')
             ##############################################################################
              # This is the end of the process
              elif vendedor[i] == 'finish':
@@ -417,214 +421,176 @@ match linguagem:
                   vendedor[i] = input(f'Enter which Seller do you want to buy?\n{vendedores} Or finish\n')
      # Total value of sellers
      Total = sum(precoV)
+     # value with the wallet
+     Total_carteira = carteira - Total
      print('###########################################################################')
-     # Bottom line
-     print('Sellers\n', vendedores, '\nValues\n', precoV, '\nParts Sold\n', pecas, '\nTotal payable!\n',Total)
-     print('###########################################################################')
+     # Final result
+     if Total > carteira:
+         print('Sellers\n', vendedores, '\nValues\n', precoV, '\nParts Sold\n', pecas, '\nTotal to pay!\n',
+               Total, '\n and owing\nUS$', Total_carteira, ' in wallet')
+     else:
+         print('Sellers\n', vendedores, '\nValues\n', precoV, '\nParts Sold\n', pecas, '\nTotal to pay!\n',
+               Total, '\nOnly US$\n left', Total_carteira, ' in wallet')
 
     case "日本語":
-     repetir = 'いいえ'
-     trocar = 'いいえ'
-     print('###########################################################################')
-     print('#ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ#')
-     print('#ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ出品者登録プログラム  ㅤㅤㅤㅤ ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ#')
-     print('#ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ#')
-     print('###########################################################################')
+        repetir = 'いいえ'
+        trocar = 'いいえ'
+        print('###########################################################################')
+        print('#ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ#')
+        print('#ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ販売者登録プログラムㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ#')
+        print('#ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ#')
+        print('###########################################################################')
 
-     print("合計10人の販売者がいます")
-     for i in range(0, 10):
-         # ここに人の名前を記入します
+        print("合計で10人の販売者がいます")
+        for i in range(0, 10):
+            vendedores[i] = input(f'販売者番号 {i + 1} の名前を入力してください:\n')
 
-         vendedores[i] = input(f'ナンバーセラーの名前は何でしょうか{i + 1} ？\n')
-         # リピート購入管理を台無しにします
-     while repetir == 'いいえ':
+        while repetir == 'いいえ':
+            print('###########################################################################')
+            vendedor[i] = input(f'どの販売者から購入しますか？\n{vendedores} または "終了"\n')
+            trocar = 'いいえ'
 
-         print('###########################################################################')
-         # 売り手を選びます
-         vendedor[i] = input(f'どの売り手を購入しますか?\n{vendedores}または終了\n')
-         # 質問の戻り値を制御します
-         trocar = 'いいえ'
-         # カートに入れた商品を整理します
-         while trocar == 'いいえ':
-                ###########################################################################
-                # 売り手が特定され、実行される
+            while trocar == 'いいえ':
                 if vendedor[i] == vendedores[0]:
-                  print('###########################################################################')
-                  print(f'{vendedores[0]} 販売:\nKatanas = ¥187')
-                  # 購入実行
-                  if pecas[0] == 0:
-                      confimar = input('この作品を買いますか?\n')
-                  else:
-                      confimar = input('この作品を買いますか?又。\n')
-                      print('###########################################################################')
-                  # チェックアウト完了
-                  if confimar == 'はい':
-                      # カートに入れた商品を整理します
-                      pecas[0] = pecas[0] + 1
-                      # アイテムの値を入力します
-                      precoV[0] = precoV[0] + 187
-                  else:
-                      # 質問に戻る
-                      trocar = input('売り手を切り替えますか?\n')
-
-                ###########################################################################
+                    print('###########################################################################')
+                    print(f'{vendedores[0]} の商品:\nカタナ = ¥187')
+                    confimar = input('この商品を購入しますか？\n') if pecas[0] == 0 else input(
+                        'もう一度この商品を購入しますか？\n')
+                    print('###########################################################################')
+                    if confimar == 'はい':
+                        pecas[0] += 1
+                        precoV[0] += 187
+                    else:
+                        trocar = input('別の販売者に切り替えますか？\n')
 
                 elif vendedor[i] == vendedores[1]:
-                  print('###########################################################################')
-                  print(f'{vendedores[1]} 販売:\nSword of Grayskull = ¥400')
-                  if pecas[1] == 0:
-                      confimar = input('この作品を買いますか?\n')
-                  else:
-                      confimar = input('この作品を買いますか?又。\n')
-                      print('###########################################################################')
-                  if confimar == 'はい':
-                      pecas[1] = pecas[1] + 1
-                      precoV[1] = precoV[1] + 400
-                  else:
-                      trocar = input('売り手を切り替えますか?\n')
-               ##############################################################################
+                    print('###########################################################################')
+                    print(f'{vendedores[1]} の商品:\nグレイスカルの剣 = ¥402')
+                    confimar = input('この商品を購入しますか？\n') if pecas[1] == 0 else input(
+                        'もう一度この商品を購入しますか？\n')
+                    print('###########################################################################')
+                    if confimar == 'はい':
+                        pecas[1] += 1
+                        precoV[1] += 402
+                    else:
+                        trocar = input('別の販売者に切り替えますか？\n')
 
                 elif vendedor[i] == vendedores[2]:
-                  print('###########################################################################')
-                  print(f'{vendedores[2]} 販売:\nNecroSword = ¥2644')
-                  if pecas[2] == 0:
-                      confimar = input('この作品を買いますか?\n')
-                  else:
-                      confimar = input('この作品を買いますか?又。\n')
-                      print('###########################################################################')
-                  if confimar == 'はい':
-                      pecas[2] = pecas[2] + 1
-                      precoV[2] = precoV[2] + 2644
-                  else:
-                      trocar = input('売り手を切り替えますか?\n')
-               ##############################################################################
+                    print('###########################################################################')
+                    print(f'{vendedores[2]} の商品:\nネクロソード = ¥2651')
+                    confimar = input('この商品を購入しますか？\n') if pecas[2] == 0 else input(
+                        'もう一度この商品を購入しますか？\n')
+                    print('###########################################################################')
+                    if confimar == 'はい':
+                        pecas[2] += 1
+                        precoV[2] += 2651
+                    else:
+                        trocar = input('別の販売者に切り替えますか？\n')
 
                 elif vendedor[i] == vendedores[3]:
-                  print('###########################################################################')
-                  print(f'{vendedores[3]} 販売:\nshield of metal = ¥801')
-                  if pecas[3] == 0:
-                      confimar = input('この作品を買いますか?\n')
-                  else:
-                      confimar = input('この作品を買いますか?又。\n')
-                      print('###########################################################################')
-                  if confimar == 'はい':
-                      # カートに入れた商品を整理します
-                      pecas[3] = pecas[3] + 1
-                      precoV[3] = precoV[3] + 801
-                  else:
-                      trocar = input('売り手を切り替えますか?\n')
-              ##############################################################################
+                    print('###########################################################################')
+                    print(f'{vendedores[3]} の商品:\nメタルシールド = ¥804')
+                    confimar = input('この商品を購入しますか？\n') if pecas[3] == 0 else input(
+                        'もう一度この商品を購入しますか？\n')
+                    print('###########################################################################')
+                    if confimar == 'はい':
+                        pecas[3] += 1
+                        precoV[3] += 804
+                    else:
+                        trocar = input('別の販売者に切り替えますか？\n')
 
                 elif vendedor[i] == vendedores[4]:
-                  print('###########################################################################')
-                  print(f'{vendedores[4]} 販売:\nIron Revenan Armor = ¥24043')
-                  if pecas[4] == 0:
-                      confimar = input('この作品を買いますか?\n')
-                  else:
-                      confimar = input('この作品を買いますか?又。\n')
-                      print('###########################################################################')
-                  if confimar == 'はい':
-                      # カートに入れた商品を整理します
-                      pecas[4] = pecas[4] + 1
-                      precoV[4] = precoV[4] + 24043
-                  else:
-                      trocar = input('売り手を切り替えますか?\n')
-               ##############################################################################
+                    print('###########################################################################')
+                    print(f'{vendedores[4]} の商品:\nアイアン・レヴナントの鎧 = ¥24111')
+                    confimar = input('この商品を購入しますか？\n') if pecas[4] == 0 else input(
+                        'もう一度この商品を購入しますか？\n')
+                    print('###########################################################################')
+                    if confimar == 'はい':
+                        pecas[4] += 1
+                        precoV[4] += 24111
+                    else:
+                        trocar = input('別の販売者に切り替えますか？\n')
 
                 elif vendedor[i] == vendedores[5]:
-                  print('###########################################################################')
-                  print(f'{vendedores[5]} 販売:\nEye of agamotto = ¥3339')
-                  if pecas[5] == 0:
-                      confimar = input('この作品を買いますか?\n')
-                  else:
-                      confimar = input('この作品を買いますか?又。\n')
-                      print('###########################################################################')
-                  if confimar == 'はい':
-                      # カートに入れた商品を整理します
-                      pecas[5] = pecas[5] + 1
-                      precoV[5] = precoV[5] + 3339
-                  else:
-                      trocar = input('売り手を切り替えますか?\n')
-
-                ##############################################################################
+                    print('###########################################################################')
+                    print(f'{vendedores[5]} の商品:\nアガモットの目 = ¥3.349')
+                    confimar = input('この商品を購入しますか？\n') if pecas[5] == 0 else input(
+                        'もう一度この商品を購入しますか？\n')
+                    print('###########################################################################')
+                    if confimar == 'はい':
+                        pecas[5] += 1
+                        precoV[5] += 3349
+                    else:
+                        trocar = input('別の販売者に切り替えますか？\n')
 
                 elif vendedor[i] == vendedores[6]:
-                  print('###########################################################################')
-                  print(f'{vendedores[6]} 販売:\nArmor of Pegasus = ¥6678')
-                  if pecas[6] == 0:
-                      confimar = input('この作品を買いますか?\n')
-                  else:
-                      confimar = input('この作品を買いますか?又。\n')
-                      print('###########################################################################')
-                  if confimar == 'はい':
-                      pecas[6] = pecas[6] + 1
-                      precoV[6] = precoV[6] + 6678
-                  else:
-                      trocar = input('売り手を切り替えますか?\n')
-                ##############################################################################
+                    print('###########################################################################')
+                    print(f'{vendedores[6]} の商品:\nペガサスの鎧 = ¥6.698')
+                    confimar = input('この商品を購入しますか？\n') if pecas[6] == 0 else input(
+                        'もう一度この商品を購入しますか？\n')
+                    print('###########################################################################')
+                    if confimar == 'はい':
+                        pecas[6] += 1
+                        precoV[6] += 6698
+                    else:
+                        trocar = input('別の販売者に切り替えますか？\n')
 
                 elif vendedor[i] == vendedores[7]:
-                  print('###########################################################################')
-                  print(f'{vendedores[7]} 販売:\nSuper-Soldier Serum = ¥14693')
-                  if pecas[7] == 0:
-                      confimar = input('この作品を買いますか?\n')
-                  else:
-                      confimar = input('この作品を買いますか?又。\n')
-                      print('###########################################################################')
-                  if confimar == 'はい':
-
-                      pecas[7] = pecas[7] + 1
-                      precoV[7] = precoV[7] + 14693
-                  else:
-                      trocar = input('売り手を切り替えますか?\n')
-                ##############################################################################
+                    print('###########################################################################')
+                    print(f'{vendedores[7]} の商品:\nスーパーソルジャー血清 = ¥14.734')
+                    confimar = input('この商品を購入しますか？\n') if pecas[7] == 0 else input(
+                        'もう一度この商品を購入しますか？\n')
+                    print('###########################################################################')
+                    if confimar == 'はい':
+                        pecas[7] += 1
+                        precoV[7] += 14734
+                    else:
+                        trocar = input('別の販売者に切り替えますか？\n')
 
                 elif vendedor[i] == vendedores[8]:
-                  print('###########################################################################')
-                  print(f'{vendedores[8]} 販売:\nHealing Potion = ¥267')
-                  if pecas[8] == 0:
-                      confimar = input('この作品を買いますか?\n')
-                  else:
-                      confimar = input('この作品を買いますか?又。\n')
-                      print('###########################################################################')
-                  if confimar == 'はい':
-                      pecas[8] = pecas[8] + 1
-                      precoV[8] = precoV[8] + 267
-                  else:
-                      trocar = input('売り手を切り替えますか?\n')
-
-                ##############################################################################
+                    print('###########################################################################')
+                    print(f'{vendedores[8]} の商品:\n回復のポーション = ¥268')
+                    confimar = input('この商品を購入しますか？\n') \
+                        if pecas[8] == 0 else input(
+                        'もう一度この商品を購入しますか？\n')
+                    print('###########################################################################')
+                    if confimar == 'はい':
+                        pecas[8] += 1
+                        precoV[8] += 268
+                    else:
+                        trocar = input('別の販売者に切り替えますか？\n')
 
                 elif vendedor[i] == vendedores[9]:
-                  print('###########################################################################')
-                  print(f'{vendedores[9]} 販売:\nPc Gamer = ¥267')
-                  if pecas[9] == 0:
-                      confimar = input('この作品を買いますか?\n')
-                  else:
-                      confimar = input('この作品を買いますか?又。\n')
-                      print('###########################################################################')
+                    print('###########################################################################')
+                    print(f'{vendedores[9]} の商品:\nゲーミングPC = ¥268')
+                    confimar = input('この商品を購入しますか？\n') \
+                        if pecas[9] == 0 else input(
+                        'もう一度この商品を購入しますか？\n')
+                    print('###########################################################################')
+                    if confimar == 'はい':
+                        pecas[9] += 1
+                        precoV[9] += 268
+                    else:
+                        trocar = input('別の販売者に切り替えますか？\n')
 
-                  if confimar == 'はい':
-                      pecas[9] = pecas[9] + 1
-                      precoV[9] = precoV[9] + 267
-                  else:
-                      trocar = input('売り手を切り替えますか?\n')
+                elif vendedor[i] == '終了':
+                    repetir = 'はい'
+                    trocar = 'はい'
 
-                ##############################################################################
-                 # これでプロセスは終了です
-                elif vendedor[i] == '完了':
-                  repetir = 'はい'
-                  trocar = 'はい'
-
-                ##############################################################################
-                #ここで、売り手の名前にタイプがある場合
                 elif vendedor[i] != vendedores[i]:
-                  print('###########################################################################')
-                  print('もう一度書き込む')
-                  vendedor[i] = input(f'どの売り手を購入しますか?\n{vendedores}または終了\n')
-         # Total value of sellers
-         Total = sum(precoV)
-         print('###########################################################################')
-         # Bottom line
-         print('売り手\n', vendedores, '\n価値観\n', precoV, '\n販売部品\n', pecas, '\n合計支払額!\n',Total)
-         print('###########################################################################')
+                    print('###########################################################################')
+                    print('入力ミスです。もう一度入力してください。')
+                    vendedor[i] = input(f'どの販売者から購入しますか？\n{vendedores} または "終了"\n')
+
+            Total = sum(precoV)
+            Total_carteira = carteira - Total
+            print('###########################################################################')
+            if Total > carteira:
+                print('販売者\n', vendedores, '\n価格\n', precoV, '\n販売された部品\n', pecas,
+                      '\n合計金額: ¥', Total,
+                      '\nお支払いが足りません！（不足分: ¥', Total_carteira, '）')
+            else:
+                print('販売者\n', vendedores, '\n価格\n', precoV, '\n販売された部品\n', pecas,
+                      '\n合計金額: ¥', Total,
+                      '\n財布に残っている金額: ¥', Total_carteira)
+            print('###########################################################################')
