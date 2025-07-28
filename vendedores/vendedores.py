@@ -1,3 +1,6 @@
+import os
+import time
+os.system('chcp 65001')
 print('###########################################################################')
 print('#' + ' ' * 75 + '#')
 print('#' + ' ' * 18 + '🇧🇷 Português - 🇺🇸 English - 🎌 日本語' + ' ' * 18 + '#')
@@ -236,6 +239,7 @@ match linguagem:
      else:
         print('Vendedores\n', vendedores, '\nValores\n', precoV, '\nPeças Vendidas\n', pecas, '\nTotal a pagar!\n', Total, '\n Sobrando apenas\nR$',Total_carteira,' na carteira')
         print('###########################################################################')
+     time.sleep(10)
 
     case "english":
      repetir = 'no'
@@ -433,6 +437,9 @@ match linguagem:
      else:
          print('Sellers\n', vendedores, '\nValues\n', precoV, '\nParts Sold\n', pecas, '\nTotal to pay!\n',
                Total, '\nOnly US$\n left', Total_carteira, ' in wallet')
+         print('###########################################################################')
+     time.sleep(10)
+
 
     case "日本語":
         repetir = 'いいえ'
@@ -596,3 +603,5 @@ match linguagem:
                       '\n合計金額: ¥', Total,
                       '\n財布に残っている金額: ¥', Total_carteira)
             print('###########################################################################')
+            time.sleep(10)
+     

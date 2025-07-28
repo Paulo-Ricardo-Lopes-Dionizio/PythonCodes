@@ -18,11 +18,13 @@ Aqui terá alguns códigos e projetos feitos por mim com o meu tempo livre
 
  - Arrumar:
    - Registro de vendedor + item por quantidade definida por usuario
+   - Linguagem Japonesa não aparecendo
   
  
 <h1>VendedoresEstaticos</h1>
  - Finalizado 22/07/2025
- - Traduzido em 3 linguagens(Português,Inglês,Japonês)
+ - Traduzido em 3 linguagens(Português,Inglês,(Andamento)Japonês)
+ - Executavel em /dist
  - Vantagens:
 
    - Escolher qual item cada vendedor terá
@@ -94,6 +96,7 @@ Aqui terá alguns códigos e projetos feitos por mim com o meu tempo livre
 
 - Fix:
   - Seller registration + item by user-defined quantity
+  - Japanese language not appearing
  
 <h1>Static Salespeople</h1>
 
@@ -124,6 +127,7 @@ Aqui terá alguns códigos e projetos feitos por mim com o meu tempo livre
 
 - 修正:
 - 販売者登録 + ユーザー定義の商品数
+ - 日本語が表示されない
  
 <h1>売り手</h1>
 
@@ -139,3 +143,4 @@ Aqui terá alguns códigos e projetos feitos por mim com o meu tempo livre
    - 売り手を選択するときにアイテムのセットを購入する必要があります
    - 限定販売者
    - 限られた価値観
+  
