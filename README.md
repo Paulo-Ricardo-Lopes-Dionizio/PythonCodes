@@ -5,7 +5,7 @@ Aqui terá alguns códigos e projetos feitos por mim com o meu tempo livre
  - ここでは私が研究のために作成したプロジェクトをいくつか紹介します。単純なプログラムは無料ですが、より複雑なプログラムはファイルのあるフォルダーにあります。
 <hr>
 <h1>VendedoresDinamicos</h1>
- - Finalizado 03/12/2023
+ - Andamento 28/07/2025
  - Vantagens:
 
    - Multiplos vendedores, itens, valores
@@ -15,19 +15,25 @@ Aqui terá alguns códigos e projetos feitos por mim com o meu tempo livre
    - Tem que comprar o conjunto de itens quando seleciona o vendedor 
    - Compras apenas 1 por vez
    - Quantidade de itens entre todos os vendedores são limitados
+
+ - Arrumar:
+   - Registro de vendedor + item por quantidade definida por usuario
+  
  
 <h1>VendedoresEstaticos</h1>
- - Finalizado 02/12/2023
+ - Finalizado 22/07/2025
  - Traduzido em 3 linguagens(Português,Inglês,Japonês)
  - Vantagens:
 
    - Escolher qual item cada vendedor terá
    - Somar todos os valores de compra por cada vendedor no final
-   - Utilização apenas de "if/else","while" 
+   - Utilização apenas de "if/else","while"
+   - Valores convertidos manua 
 
  - Desvantagens:
    - Vendedores limitados
    - Valores Limitados
+
 <h1>Texto-Falas</h1>
  - Em processo
  -Tradução em andamento
@@ -57,6 +63,7 @@ Aqui terá alguns códigos e projetos feitos por mim com o meu tempo livre
 
    - Limitação de espaço caso seja pre redimencionado
    - Conhecimento de "Web" para entender alguns conceitos
+
 <h1>Programa Base</h1>
  - Em processo
  -Tradução em andamento
@@ -74,7 +81,7 @@ Aqui terá alguns códigos e projetos feitos por mim com o meu tempo livre
    
 <hr>
 <h1>Dynamic Sellers</h1>
- - Completed 12/03/2023
+ - Process 28/07/2025
  - Benefits:
 
    - Multiple sellers, items, values
@@ -84,6 +91,9 @@ Aqui terá alguns códigos e projetos feitos por mim com o meu tempo livre
    - You have to buy the set of items when you select the seller
    - Purchase only 1 at a time
    - Quantity of items among all sellers are limited
+
+- Fix:
+  - Seller registration + item by user-defined quantity
  
 <h1>Static Salespeople</h1>
 
@@ -101,16 +111,19 @@ Aqui terá alguns códigos e projetos feitos por mim com o meu tempo livre
    - Limited Values
 <hr>
 <h1>売り手</h1>
- - 2023/12/03 完了
- - 利点:
+- 進捗状況 2025年7月28日
+- メリット:
 
-   - 複数の販売者, アイテム, 価値観
-   - 販売者の特定
+- 複数の販売者、商品、および価格
+- 販売者の識別
 
- - 短所:
-   - 売り手を選択するときにアイテムのセットを購入する必要があります
-   - 一度に1つだけ購入してください
-   - すべての販売者の商品の数量には限りがあります
+- デメリット:
+- 販売者を選択する際に、複数の商品セットを購入する必要がある
+- 購入は1回のみ
+- すべての販売者間での商品数に制限がある
+
+- 修正:
+- 販売者登録 + ユーザー定義の商品数
  
 <h1>売り手</h1>
 
