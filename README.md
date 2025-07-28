@@ -1,149 +1,130 @@
-# PythonCodigos | PythonCodes | プログラムコード パイソン
-Aqui terá alguns códigos e projetos feitos por mim com o meu tempo livre
- - Aqui terá alguns Projetos feitos por mim para estudo, programas mais simples estarão de forma livre, enquanto programas mais complexo estarão em pastas com seus arquivos dentro. 
- - Here you will have some Projects made by me for study, simpler programs will be free, while more complex programs will be in folders with their files inside.
- - ここでは私が研究のために作成したプロジェクトをいくつか紹介します。単純なプログラムは無料ですが、より複雑なプログラムはファイルのあるフォルダーにあります。
-<hr>
-<h1>VendedoresDinamicos</h1>
- - Andamento 28/07/2025
- - Vantagens:
+# 🐍 PythonCodigos | PythonCodes | プログラムコード パイソン
 
-   - Multiplos vendedores, itens, valores
-   - Identificar Vendedores
+✨ Repositório com diversos projetos e códigos feitos por mim no tempo livre.
 
- - Desvantagens:
-   - Tem que comprar o conjunto de itens quando seleciona o vendedor 
-   - Compras apenas 1 por vez
-   - Quantidade de itens entre todos os vendedores são limitados
+- Contém projetos voltados ao estudo de programação em Python.
+- Programas simples estarão soltos, enquanto projetos mais complexos estarão organizados em pastas com seus respectivos arquivos.
 
- - Arrumar:
-   - Registro de vendedor + item por quantidade definida por usuario
-   - Linguagem Japonesa não aparecendo
-  
- 
-<h1>VendedoresEstaticos</h1>
- - Finalizado 22/07/2025
- - Traduzido em 3 linguagens(Português,Inglês,(Andamento)Japonês)
- - Executavel em /dist
- - Vantagens:
+> A repository with various Python projects and codes created in my free time.
+> - Simple programs are standalone, while more complex projects are organized into folders with their corresponding files.
 
-   - Escolher qual item cada vendedor terá
-   - Somar todos os valores de compra por cada vendedor no final
-   - Utilização apenas de "if/else","while"
-   - Valores convertidos manua 
+> 自由時間に作成した Python プロジェクトやコードをまとめたリポジトリです。
+> - 単純なプログラムは単体で、複雑なプロジェクトはフォルダーに整理されています。
 
- - Desvantagens:
-   - Vendedores limitados
-   - Valores Limitados
+---
 
-<h1>Texto-Falas</h1>
- - Em processo
- -Tradução em andamento
+## 📦 VendedoresDinamicos | Dynamic Sellers | 動的販売者
 
- - Vantagens:
+🗓 **Status**: Em desenvolvimento (28/07/2025)
 
-   - Escuta os sons das vozes de que usar
-   - Todas as falas são reescritas no bloco de notas
+### ✅ Vantagens | Advantages | メリット:
+- Múltiplos vendedores, itens e valores  
+- Identificação dos vendedores  
 
- - Desvantagens:
+### ❌ Desvantagens | Disadvantages | デメリット:
+- Obrigatório comprar o conjunto de itens ao selecionar o vendedor  
+- Compra limitada a 1 item por vez  
+- Quantidade total de itens é limitada entre os vendedores  
 
-   - Apenas falas em inglês possui eficiência na escrita para o bloco de notas
-   - Possui um atraso de escrita entre 10 a 30 segundos
-   - Necessita de um microfone de boa qualidade
-   - 
-<h1>Janelas</h1>
- - Em processo
- -Tradução em andamento
+### 🔧 Melhorias a Fazer | To Fix | 修正予定:
+- Registro de vendedor com item e quantidade definidos pelo usuário  
+- Correção da exibição da linguagem japonesa  
 
- - Vantagens:
+---
 
-   - Criação de Janelas de programa
-   - utilização de categorias e funções de "Web"
-   - algumas funções podem deixar o site mais reponsivo.
+## 📦 VendedoresEstaticos | Static Sellers | 静的販売者
 
- - Desvantagens:
+🗓 **Status**: Finalizado (22/07/2025)  
+🌐 **Traduções**: Português, Inglês, (Em andamento) Japonês
 
-   - Limitação de espaço caso seja pre redimencionado
-   - Conhecimento de "Web" para entender alguns conceitos
+### ✅ Vantagens | Advantages | メリット:
+- Personalizar quais itens cada vendedor possui  
+- Soma total de valores por vendedor no final  
+- Utiliza apenas `if/else` e `while`  
+- Conversões de valores feitas manualmente  
 
-<h1>Programa Base</h1>
- - Em processo
- -Tradução em andamento
+### ❌ Desvantagens | Disadvantages | デメリット:
+- Número fixo de vendedores  
+- Valores e opções limitados  
 
- - Vantagens:
+---
 
-   - Criação base para programas
-   - Facil manusear
-  
+## 📝 Texto-Falas | Text-Speech | テキストスピーチ
 
- - Desvantagens:
+🗓 **Status**: Em desenvolvimento | Translation in progress | 翻訳進行中
 
-   - Limitação de espaço caso seja pre-redimencionado
-   - Comandos longos
-   
-<hr>
-<h1>Dynamic Sellers</h1>
- - Process 28/07/2025
- - Benefits:
+### ✅ Vantagens:
+- Reconhecimento e escuta de falas por voz  
+- Transcrição das falas para bloco de notas  
 
-   - Multiple sellers, items, values
-   - Identify Sellers
+### ❌ Desvantagens:
+- Apenas falas em inglês têm boa precisão de escrita  
+- Atraso de 10 a 30 segundos na transcrição  
+- Necessário microfone de boa qualidade  
 
- - Disadvantages:
-   - You have to buy the set of items when you select the seller
-   - Purchase only 1 at a time
-   - Quantity of items among all sellers are limited
+---
 
-- Fix:
-  - Seller registration + item by user-defined quantity
-  - Japanese language not appearing
- 
-<h1>Static Salespeople</h1>
+## 🪟 Janelas | Windows GUI | ウィンドウ
 
- - Completed 12/02/2023
- - Translated into 3 languages (Portuguese,English,Japanese)
- - Runs in /dist
- - Benefits:
+🗓 **Status**: Em desenvolvimento | Translation in progress | 翻訳進行中
 
-   - Choose which item each seller will have
-   - Add up all purchase values for each seller at the end
-   - Use only "if/else","while"
+### ✅ Vantagens:
+- Criação de interfaces gráficas com janelas  
+- Uso de funções e categorias da Web  
+- Algumas funções tornam o site mais responsivo  
 
- - Disadvantages:
-   - You have to buy the set of items when you select the seller
-   - Limited sellers
-   - Limited Values
-<hr>
-<h1>売り手</h1>
-- 進捗状況 2025年7月28日
-- メリット:
+### ❌ Desvantagens:
+- Limitações de espaço em caso de redimensionamento  
+- Requer conhecimento básico de tecnologias Web  
 
-- 複数の販売者、商品、および価格
-- 販売者の識別
+---
 
-- デメリット:
-- 販売者を選択する際に、複数の商品セットを購入する必要がある
-- 購入は1回のみ
-- すべての販売者間での商品数に制限がある
+## 🧱 Programa Base | Base Program | ベースプログラム
 
-- 修正:
-- 販売者登録 + ユーザー定義の商品数
- - 日本語が表示されない
- 
-<h1>売り手</h1>
+🗓 **Status**: Em desenvolvimento | Translation in progress | 翻訳進行中
 
- - 2023/12/02 完了
- - さまざまな言語に翻訳(ポルトガル語、英語、日本語)
- - 「/dist」で実行
- 
- - 利点:
+### ✅ Vantagens:
+- Estrutura base para programas  
+- Fácil de usar e adaptar  
 
-   - 各販売者がどのアイテムを所有するかを選択してください
-   - 最後に各販売者のすべての購入額を合計します。
-   - 「if/else」、「while」のみを使用してください
+### ❌ Desvantagens:
+- Limitação de espaço em janelas pequenas  
+- Comandos relativamente longos  
 
- - 短所:
-   - 売り手を選択するときにアイテムのセットを購入する必要があります
-   - 限定販売者
-   - 限られた価値観
-  
+---
+
+## 🔤 Traduções Japonesas (Japanese Translations)
+
+### 📦 動的販売者 (VendedoresDinamicos)
+
+🗓 **進捗状況**: 2025年7月28日
+
+#### ✅ メリット:
+- 複数の販売者、商品、および価格  
+- 販売者の識別  
+
+#### ❌ デメリット:
+- 販売者を選択する際、商品セットを購入する必要がある  
+- 購入は1回のみ  
+- すべての販売者間での商品数に制限がある  
+
+#### 🔧 修正予定:
+- ユーザー定義による販売者登録と商品の数量設定  
+- 日本語の表示が正しくない問題の修正  
+
+---
+
+### 📦 静的販売者 (VendedoresEstaticos)
+
+🗓 **完了日**: 2025年7月22日  
+🌐 **翻訳**: ポルトガル語、英語、日本語（進行中）
+
+#### ✅ 利点:
+- 各販売者が持つ商品を選択可能  
+- 販売者ごとの合計購入金額を最終的に計算  
+- `if/else` と `while` のみを使用  
+- 手動での価格変換  
+
+#### ❌ 短所:
+- 販売者の数が制限されている  
+- 商品と価格の選択肢が限られている  
