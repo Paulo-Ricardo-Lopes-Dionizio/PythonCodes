@@ -93,7 +93,7 @@
 
 ---
 
-## 🔤 Traduções Japonesas (Japanese Translations)
+
 
 ### 📦 動的販売者 (VendedoresDinamicos)
 
